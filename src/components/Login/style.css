@@ -8,6 +8,8 @@
     margin: 0 auto;
     background-color: #8c54c1;
     color: white;
+    border-radius: 20px;
+    margin-top: 60px;
 }
 .main-heading{
     font-style: "PlusJakartaSans";
@@ -52,15 +54,20 @@
 .login-btn {
     font-size: 14px;
     font-style: "PlusJakartaSans";
-    font-weight: 400;
+    font-weight: 600;
     width: 280px;
     padding: 5px 0;
     text-align: center;
+    cursor: pointer;
+    border: 0;
 }
 .note-text {
     font-size: 10px;
     margin-top: 5px;
 }
 .disclaimer-text {
-    
+    font-style: "NIKEA";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
 }

@@ -21,11 +21,11 @@ const Login = () => {
                     <div className="checkbox-text">I accept the Privacy Policy & Terms of Use</div>
                 </div>
             </div>
-            <div className="login-btn" style={{marginTop: 30, backgroundColor: "#0072bb"}}>CONTINUE WITH FACEBOOK</div>
-            <div className="login-btn" style={{marginTop: 10, backgroundColor: "red"}}>CONTINUE WITH GOOGLE</div>
+            <button className="login-btn" style={{marginTop: 30, backgroundColor: "#0072bb"}}>CONTINUE WITH FACEBOOK</button>
+            <button className="login-btn" style={{marginTop: 10, backgroundColor: "red"}}>CONTINUE WITH GOOGLE</button>
             <div className="note-text"><span>*</span>Don't worry, you will remain anonymous.</div>
-            <div className="disclaimer-text">We don't post anything to Facebook or Google</div>
-            <div>Privacy Policy & Terms of Use.</div>
+            <div className="disclaimer-text" style={{marginTop: 40}}>We don't post anything to Facebook or Google</div>
+            <div className="disclaimer-text"style={{marginTop: 10, marginBottom: 10}}><u>Privacy Policy & Terms of Use.</u></div>
         </div>
     )
 }

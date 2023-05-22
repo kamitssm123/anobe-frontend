@@ -1,0 +1,16 @@
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+.image-box {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url(../../assets/images/dp.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+}
